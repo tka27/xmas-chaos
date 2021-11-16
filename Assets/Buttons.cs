@@ -18,4 +18,8 @@ public class Buttons : MonoBehaviour
         menu.SetActive(false);
         settingsmenu.SetActive(true);
     }
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
