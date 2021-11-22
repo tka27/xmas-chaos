@@ -5,21 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public GameObject menu;
-    public GameObject settingsmenu;
-
-   public void Play()
+    public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Settings()
+    public void QuitGame()
     {
-        menu.SetActive(false);
-        settingsmenu.SetActive(true);
-    }
-    public void Exit()
-    {
+        Debug.Log("Quit");
         Application.Quit();
     }
 }
