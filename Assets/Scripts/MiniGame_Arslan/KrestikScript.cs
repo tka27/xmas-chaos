@@ -12,7 +12,7 @@ public class KrestikScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 
-
+        
             if (GamePaused)
             {
                 Resume();
