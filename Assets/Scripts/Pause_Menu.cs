@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Pause_Menu : MonoBehaviour
 {
-
+    [SerializeField] private AudioSource ResumeGame;
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     void Update()
@@ -28,6 +29,7 @@ public class Pause_Menu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        ResumeGame.Play();
     }
     public void Pause()
     {
