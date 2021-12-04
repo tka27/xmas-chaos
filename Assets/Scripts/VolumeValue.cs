@@ -10,10 +10,11 @@ public class VolumeValue : MonoBehaviour
 
     void Start()
     {
-        audioSrc = GetComponent<AudioSource>();
-        if (PlayerPrefs.HasKey("Volume"))
+
+        if (!PlayerPrefs.HasKey("Volume"))
         {
-            PlayerPrefs.GetFloat("Volume", musicVolume);
+            PlayerPrefs.SetFloat("Volume", musicVolume);
+            Load();
         }
         else
         {
@@ -24,10 +25,18 @@ public class VolumeValue : MonoBehaviour
     {
         audioSrc.volume = musicVolume;
     }
+    private void Load()
+    {
+       musicVolume = PlayerPrefs.GetFloat("Volume");
+    }
     public void SetVolume(float vol)
     {
         musicVolume = vol;
-        PlayerPrefs.SetFloat("Volume", audioSrc.volume);
+        Save();
+    }
+    private void Save()
+    {
+        PlayerPrefs.SetFloat("Volume", musicVolume);
     }
 
 }
