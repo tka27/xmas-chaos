@@ -7,6 +7,19 @@ public class Click : MonoBehaviour
 {
     public Text ClickTotalText;
     float TotalClicks;
+    public static bool MouseDown = true;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (MouseDown)
+            {
+                AddClicks();
+            }
+        }
+       
+    }
 
     public void AddClicks()
     {
