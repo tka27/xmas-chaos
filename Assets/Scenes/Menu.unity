@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SETTINGS
+  m_Text: "\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418"
 --- !u!222 &20290717
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -471,7 +471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &140962607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -725,6 +725,7 @@ Transform:
   - {fileID: 22298097}
   - {fileID: 688888238}
   - {fileID: 262193818}
+  - {fileID: 811701135}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -874,7 +875,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Explore/Choose: LMB'
+  m_Text: "\u0418\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C/\u0412\u044B\u0431\u0440\u0430\u0442\u044C:
+    \u041B\u041A\u041C"
 --- !u!222 &168676546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -968,7 +970,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Run: Shift'
+  m_Text: "\u0411\u0435\u0433: Shift"
 --- !u!222 &222701047
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1256,7 +1258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MUSIC:'
+  m_Text: "\u041C\u0423\u0417\u042B\u041A\u0410:"
 --- !u!222 &243248238
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1474,7 +1476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -176, y: -267}
+  m_AnchoredPosition: {x: -298, y: -267.00003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &301670545
@@ -2109,7 +2111,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Fullscreen Mode: F8'
+  m_Text: "\u041F\u043E\u043B\u043D\u043E\u044D\u043A\u0440\u0430\u043D\u043D\u044B\u0439
+    \u0440\u0435\u0436\u0438\u043C: F8"
 --- !u!222 &546813758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2337,6 +2340,7 @@ GameObject:
   - component: {fileID: 606965926}
   - component: {fileID: 606965928}
   - component: {fileID: 606965927}
+  - component: {fileID: 606965929}
   m_Layer: 5
   m_Name: MainGameName
   m_TagString: Untagged
@@ -2360,8 +2364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: 376}
-  m_SizeDelta: {x: 785.34, y: 133.08}
+  m_AnchoredPosition: {x: 19.054996, y: 376}
+  m_SizeDelta: {x: 946.57, y: 133.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606965927
 MonoBehaviour:
@@ -2396,7 +2400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Christmas Chaos
+  m_Text: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u044F\u044F \u0421\u0443\u0435\u0442\u0430"
 --- !u!222 &606965928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2405,6 +2409,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606965925}
   m_CullTransparentMesh: 1
+--- !u!114 &606965929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606965925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: NameGame
+  FallbackText: Christmas Chaos
 --- !u!1 &688888237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,16 +2726,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780034855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.506075, y: 1.05948, z: 1.05948}
+  m_LocalScale: {x: 5.6325936, y: 1.05948, z: 1.05948}
   m_Children: []
   m_Father: {fileID: 1799799990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.337e-10, y: -50}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 100, y: 7.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780034857
@@ -2833,6 +2851,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803416199}
   m_CullTransparentMesh: 1
+--- !u!1 &811701134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811701135}
+  - component: {fileID: 811701136}
+  m_Layer: 0
+  m_Name: NameGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811701135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811701134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 143087520}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811701136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811701134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u044F\u044F \u0421\u0443\u0435\u0442\u0430"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Chirstmas Chaos
+    Object: {fileID: 0}
 --- !u!1 &832249534
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,7 +3352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sounds
+  m_Text: "\u0417\u0432\u0443\u043A\u0438"
 --- !u!222 &934613716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3447,6 +3516,7 @@ GameObject:
   - component: {fileID: 1075383731}
   - component: {fileID: 1075383730}
   - component: {fileID: 1075383729}
+  - component: {fileID: 1075383732}
   m_Layer: 5
   m_Name: NEWGAME
   m_TagString: Untagged
@@ -3470,7 +3540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -339.61, y: -252}
+  m_AnchoredPosition: {x: -9, y: -252}
   m_SizeDelta: {x: 369.43, y: 112.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075383726
@@ -3641,6 +3711,102 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!82 &1075383732
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075383724}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 816db558e6f3b4a41869cfcc3083b0fe, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1128917425
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,7 +3878,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'EFFECTS:'
+  m_Text: "\u042D\u0424\u0424\u0415\u041A\u0422\u042B:"
 --- !u!222 &1128917428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3893,7 +4059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Walking: WASD'
+  m_Text: "\u0425\u043E\u0434\u044C\u0431\u0430: WASD"
 --- !u!222 &1312702443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3990,7 +4156,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Language
+  m_Text: "\u042F\u0437\u044B\u043A"
 --- !u!222 &1378097928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4382,7 +4548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59.78, y: -403.65}
+  m_AnchoredPosition: {x: -76, y: -403.65}
   m_SizeDelta: {x: 308.32, y: 129.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607106815
@@ -4485,7 +4651,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8d7caa5a7f5c72744907b9c9e752f507, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 286c714c0d82dad42ac3d62b77005b8f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4752,6 +4918,7 @@ GameObject:
   - component: {fileID: 1650963382}
   - component: {fileID: 1650963381}
   - component: {fileID: 1650963383}
+  - component: {fileID: 1650963384}
   m_Layer: 5
   m_Name: EXIT
   m_TagString: Untagged
@@ -4884,6 +5051,102 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!82 &1650963384
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650963379}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 816db558e6f3b4a41869cfcc3083b0fe, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1682657534
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,7 +5345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cancel: Q'
+  m_Text: "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C: Q"
 --- !u!222 &1760027979
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5142,7 +5405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393, y: 265.18}
+  m_AnchoredPosition: {x: 487, y: 265.18}
   m_SizeDelta: {x: 516.66, y: 110.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799799991
@@ -5178,7 +5441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Controls
+  m_Text: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
 --- !u!222 &1799799992
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5272,7 +5535,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pause: ESC'
+  m_Text: "\u041F\u0430\u0443\u0437\u0430: ESC"
 --- !u!222 &1872757578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5401,7 +5664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978f51d2891aef141bf54543f42aa29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonPlayGame: {fileID: 0}
+  ButtonPlayGame: {fileID: 1075383732}
 --- !u!114 &1933057127
 MonoBehaviour:
   m_ObjectHideFlags: 0
