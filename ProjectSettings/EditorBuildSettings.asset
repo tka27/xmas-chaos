@@ -6,12 +6,51 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Enter.unity
+    guid: 46823386fd750fd49a04b97194489a16
+  - enabled: 1
+    path: Assets/Scenes/Hall.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/class 102.unity
+    guid: c4a3f670e522e40488792cb2e02820ca
+  - enabled: 1
+    path: Assets/Scenes/class 108.unity
+    guid: b32c3e39465b6644fb8e35949eb13271
+  - enabled: 1
+    path: Assets/Scenes/class 105.unity
+    guid: e157d916010e078408a77043b38dfa55
+  - enabled: 1
+    path: Assets/Scenes/class 112.unity
+    guid: 2cb5078277477ea46be01341a1934424
+  - enabled: 1
+    path: Assets/Scenes/Teacher Room.unity
+    guid: f67e4d75196833348ba5650e01cc673c
+  - enabled: 1
+    path: Assets/Scenes/Toilet.unity
+    guid: 13543bfbe985be94788908625a44cd3f
+  - enabled: 1
+    path: Assets/Scenes/level 2.unity
+    guid: 0993d49757b1d0f41b0516b28d977d6b
+  - enabled: 1
+    path: Assets/Scenes/Printer Room.unity
+    guid: ca79630cee8fd0e46af292dc82876243
+  - enabled: 1
+    path: Assets/Scenes/Toilet2.unity
+    guid: 061d7c0e972d355479451b56f0ba7e2e
+  - enabled: 1
+    path: Assets/Scenes/class 213.unity
+    guid: a9ff7daab7dec3141932661c94a9a72d
+  - enabled: 1
+    path: Assets/Scenes/class 304.unity
+    guid: 9d3f5d36e164b7241809a2056c634cd2
+  - enabled: 1
+    path: Assets/Scenes/class 312.unity
+    guid: 45f0400084c7c7f4fa57904edbf7a5a5
+  - enabled: 1
+    path: Assets/Scenes/class 412.unity
+    guid: 26f9e19eefb1257429488782b391e610
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: f9463ee1037702f41b9933343886eff4
-  - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: fb59a4af697aac64e890c30fb42a7f60
-  - enabled: 1
-    path: Assets/Scenes/MiniGame_Arslan.unity
-    guid: 2a35747ad6606ed4985434aa42949b56
+    guid: a8070780e4e478946b5f13eed9794314
   m_configObjects: {}
